@@ -1,0 +1,4 @@
+urllib3            >=1.26.8
+--index-url=https://repository.aqmo.org/pypi/simple
+libRUDIprod        >=0.1.0
+
