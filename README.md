@@ -9,6 +9,9 @@ Elle comporte deux fonctionnalités principales :
 Le répertoire contient aussi une bibliothèque (localFiles.py) pour déclarer des
 fichiers locaux (ici dans le répertoire JDD).
 
+Une documentation du lien noeud-producteur <-> portail est
+disponible ici : http://doc.rudi.bzh/api/contrat-portail-noeud-producteur/
+
 #Noeud de test
 
 https://bacasable.fenix.rudi-univ-rennes1.fr/prodmanager/
