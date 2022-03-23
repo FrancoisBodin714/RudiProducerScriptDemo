@@ -12,6 +12,9 @@ fichiers locaux (ici dans le répertoire JDD).
 Une documentation du lien noeud-producteur <-> portail est
 disponible ici : http://doc.rudi.bzh/api/contrat-portail-noeud-producteur/
 
+La documentation de l'API est disponible ici :
+https://app.swaggerhub.com/apis/OlivierMartineau/RUDI-PRODUCER/1.2.0#/Connector
+
 #Noeud de test
 
 https://bacasable.fenix.rudi-univ-rennes1.fr/prodmanager/
