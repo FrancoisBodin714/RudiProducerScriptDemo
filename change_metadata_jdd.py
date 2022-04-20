@@ -1,6 +1,5 @@
 #Obtention des métadonnées pour un JDD à partir de l'id local
 import librudiprod
-import localFiles
 import hashlib
 import uuid
 import time

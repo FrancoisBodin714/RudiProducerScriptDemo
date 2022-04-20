@@ -1,6 +1,5 @@
 #Ajoute les jeux de données déclarés dans le répertoire JDD
 import librudiprod
-import localFiles
 import hashlib
 import uuid
 import time
@@ -36,7 +35,7 @@ else:
     
 
 #Accès aux jeux de données et métadata correspondantes, utilise le fichier 'localFiles.ini'
-ori = localFiles.LocalFiles()
+ori = librudiprod.LocalFiles()
 #Chargement des métadonnées dans le répertoire 'JDD'
 ori.downloadMetadata()
 jdds = ori.BrowseDataSet()
@@ -65,7 +64,6 @@ for jdd in jdds:
     md5_hash = hashlib.md5() 
     md5_hash.update(data[-1])
     digestmd5.append(md5_hash.hexdigest())
-
     
     #print("Actions de publication sur média")
     #np_api.displayMediaStatus()     

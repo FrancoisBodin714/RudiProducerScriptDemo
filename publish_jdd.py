@@ -1,7 +1,6 @@
 #Obtention des métadonnées pour un JDD à partir de l'id local
 #et publication sur le portail
 import librudiprod
-import localFiles
 import hashlib
 import uuid
 import json
